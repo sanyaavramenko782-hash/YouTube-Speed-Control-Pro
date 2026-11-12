@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Speed Control Pro",
+  "version": "1.0",
+  "description": "Управление скоростью воспроизведения YouTube до 10x с помощью ползунка и ввода.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
